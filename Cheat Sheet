@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=K, initial-scale=1.0">
+    <title>HTML,CSS</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- This is a comment that the browser will not display.
+  https://developer.mozilla.org/en-US/
+  -->
+  <div class= "headings">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    </div>
+     <div class= "links">
+      <h2>Links</h2>
+        <p> link href="style.css" rel="stylesheet" </p>
+        <p>img src="https..." alt="..." </p>
+        <p> a href= "https:..." target="_blank">Name< a</p>
+        <p> turn an image into a link *** a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="https://www.Prickly_Pear_Closeup.jpg" alt="A red prickly pear fruit"/></a</p>
+        <p> video src="" controls>Video not supported<video </p>
+      <p> <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a></p>
+      <p>a href="./contact.html">Contact</a</p>
+      <p>Linking to Same Page*** p id="top">This is the top of the page!</p +++  li><a href="#top">Top</a></li>
+ <li><a href="#bottom">Bottom</a></li
+<h1 id="bottom">This is the bottom! </h1> </p>
+      </div>
+      <div class= "tables">
+        <h2>Tables</h2>
+        <ul>
+          <li>table</li>
+          <li>tbody</li>
+          <li>thead</li>
+          <li>tr</li>
+          <li>td</li>
+          <li>tfoot</li>
+        </ul>
+        <p>Table data can span columns using the <em>colspan</em> attribute.
+Table data can span rows using the <em> rowspan</em>  attribute.</p>
+      </div>
+      <div class="semantic html">
+        <h2>Why use Semantic HTML?</h2>
+        <p>
+          <strong>Accessibility</strong>: Semantic HTML makes webpages accessible for mobile devices and for people with disabilities as well. This is because screen readers and browsers are able to interpret the code better.
+        </p>
+          <p> <strong>SEO </strong>: It improves the website SEO, or Search Engine Optimization, which is the process of increasing the number of people that visit your webpage. With better SEO, search engines are better able to identify the content of your website and weight the most important content appropriately. </p>
+            <p><strong>Easy to Understand</strong>: Semantic HTML also makes the website’s source code easier to read for other web developers.</p>
+          </div>
+          <div class="Header and Nav">
+             <header> 
+              <h2>Header and Nav</h2>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>   
+    </ul>
+  </nav>
+</header>
+          </div>  
+          <div class="main and footer">
+            <h2>Main and Footer</h2> 
+             <header>
+      <h1>Navigational Links</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>This is where the main content will go once the page is built out!</p>
+    </main>
+    
+    <footer>
+      <p>Contact me at +1 234 567 8910 </p>
+    <footer> 
+    
+       <div class="article and aection">    
+         <h2>Article and Section</h2>
+            <p><em>section</em> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme. For example, content with the same theme such as articles about cricket can go under a single section. A website’s home page could be split into sections for the introduction, news items, and contact information.</p>
+            <p>The <em>article</em> element holds content that makes sense on its own. +article+ can hold content such as articles, blogs, comments, magazines, etc. An +article+ tag would help someone using a screen reader understand where the article content (that might contain a combination of text, images, audio, etc.) begins and ends.t is important to note that a +section+ element could also be placed in an +article+ element depending on the context.</p>
+             <!--
+              <aside>
+  <p>
+   Babe Ruth once stated, “Heroes get remembered, but legends never die.” 
+  </p>
+</aside>
+              -->
+              <div class=" figure and figcaption">
+                <h2>Figure and Figcaption</h2>
+                <p>+figure+ encapsulates all types of media.
++figcaption+ is used to describe the media in +figure+</p>
+                <figure>
+  <img src="overwatch.jpg">
+  <figcaption>This picture shows characters from Overwatch.</figcaption>
+</figure>
+              </div>
+              <div class= "audio and attributes,video">
+<h2>Audio and Attributes,Video</h2>
+<audio autoplay controls>
+  <source src="iAmAnAudioFile.mp3" type="audio/mp3">
+</audio>
+ <video src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>Video not supported</video>
+  <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif">
+      
+              </div>
+       <div class="css selectors">     
+     
+        <h2>CSS Selectors</h2>
+        <p>CSS Anatomy: 
+    <p><strong>Selector</strong>—The beginning of the ruleset used to target the element that will be styled.
+    Declaration Block—The code in-between (and including) the curly braces ({ }) that contains the CSS declaration(s).</p>
+   <p><strong>Declaration</strong>—The group name for a property and value pair that applies a style to the selected element.
+    <p><strong>Property</strong>—The first part of the declaration that signifies what visual characteristic of the element is to be modified.
+    <p><strong>Value</strong>—The second part of the declaration that signifies the value of the property.
+</p>
+        <ul>
+          <li>Universal: * </li>
+          <li>Class: .title</li>
+          <li>Multiple classes</li>
+          <li>id : #</li>
+          <li>Pseudo-class:  :visited</li>
+          <li>Descendant Combinator:  main-list li </li>
+        </ul>
+        </div>
+        </div>
+        
+        <div class="styles css">
+          <p>Inline Styles</p>
+          <p style=' font-size: 20px;'>I'm learning to code!</p>
+          <p>Internal Stylesheet</p>
+          <head>
+  <style>
+    p {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<h2>Linking the CSS File</h2>
+<link href='./style.css' rel='stylesheet'>
+        </div>
+        <div class="visual rules">
+          <h2>Visual Rules</h2>
+          <ul>
+            <li>font-family</li>
+            <li>font-size</li>
+            <li>font-weight</li>
+            <li>text-align</li>
+            <li>color</li>
+            <li>background-color</li>
+            <li>font-style</li>
+            <li>line-height</li>
+            <li>opacity</li>
+            <li>background-image</li>
+            <li>background-position</li>
+          
+          </ul>
+          <h2></h2>
+        </div>
+        <div class="flexbox">
+<h2>Flexbox</h2>
+  <ul>
+    <li>display: flex changes an element to a block-level container with flex items inside of it.</li>
+    <li>display: inline-flex allows multiple flex containers to appear inline with each other.</li>
+    <li>   justify-content is used to space items along the main axis.</li>
+    <li>    align-items is used to space items along the cross axis.</li>
+    <li> flex-grow is used to specify how much space (and in what proportions) flex items absorb along the main axis.</li>
+    <li>flex-shrink is used to specify how much flex items shrink and in what proportions along the main axis.</li>
+    <li>flex-basis is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.</li>
+    <li>flex is used to specify flex-grow, flex-shrink, and flex-basis in one declaration.</li>
+    <li>flex-wrap specifies that elements should shift along the cross axis if the flex container is not large enough.</li>
+    <li>align-content is used to space rows along the cross axis.</li>
+    <li>flex-direction is used to specify the main and cross axes.</li>
+    <li>flex-flow is used to specify flex-wrap and flex-direction in one declaration.</li>
+    <li>Flex containers can be nested inside of each other by declaring display: flex or display: inline-flex for children of flex containers.</li>
+   
+    </ul>
+
+
+        </div>
+     
+        <a href= "https://www.hostinger.com/tutorials/best-html-web-fonts" target="_blank">The 20 Best HTML Fonts to Use in 2024 </a> <br> <br>
+
+            <a href= "https://147colors.com/" target="_blank">147 Colors</a>
+</body>
+</html>
